@@ -153,6 +153,7 @@ void register_user() {
             printf("Registration successful!\n");
             printf("Please login to continue...\n");
             system("cls"); // Clear the console
+            printf ("Log in\n");
             login_user(); // Call login_user() after registration
         }
     }
