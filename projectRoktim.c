@@ -458,7 +458,7 @@ fclose(fp); // Close the file
 
     printf("1. Back to main menu\n2. Exit\n");
     int choice;
-    scanf("Enter your choice: %d", &choice);
+    scanf("%d", &choice);
     if (choice == 1){
         system("cls"); // Clear the console
         user_menu(); // Call user_menu() to go back to the main menu
