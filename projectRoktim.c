@@ -30,8 +30,6 @@ void create_files() {
     fclose(fp_registration);
     FILE *fp_donation = fopen("donation.txt", "a");
     fclose(fp_donation);
-    FILE *fp_reception = fopen("reception.txt", "a");
-    fclose(fp_reception);
     FILE *fp_A_plus = fopen("A+.txt", "a");
     fclose(fp_A_plus);
     FILE *fp_A_minus = fopen("A-.txt", "a");
