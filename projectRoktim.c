@@ -473,8 +473,6 @@ int main() {
     printf("Welcome to PROJECT ROKTIM!\n");
     animate();
     printf("Project Successfully Loaded. Starting project...\n");
-    fflush(stdout);
-    usleep(10000); // wait for 0.5 seconds
     system("cls");
     int choice;
     printf("1. Register\n2. Login\n3. Exit\n");
