@@ -6,7 +6,7 @@
 
 void animate() {
     int i;
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 2; i++) {
         printf("\rLoading");
         fflush(stdout);
         usleep(500000); // wait for 0.5 seconds
